@@ -1,4 +1,4 @@
-# kipu-bank# 🏦 KipuBank
+# 🏦 KipuBank
 
 **KipuBank** is a simple smart contract that simulates a decentralized bank with a **global deposit cap (`bankCapacity`)** and a **maximum withdrawal limit per transaction**.  
 Each user can deposit and withdraw ETH securely, while the total contract balance can never exceed the defined capacity.
@@ -37,6 +37,19 @@ All deposits and withdrawals are tracked through emitted events.
 5. Click **Deploy** and confirm the transaction in MetaMask.
 
 ✅ Once deployed, you will see the contract interface with its public functions.
+
+---
+
+## 🌐 **Verified Contract — Sepolia Testnet**
+
+> ⚡ **Live Deployed & Verified on Etherscan**
+
+You can interact with the **official verified KipuBank contract** deployed on the **Sepolia Testnet** via the link below:
+
+🔗 **Etherscan Address:**  
+[`0x3cBA6A390232D04CCc0EA8dC44208dA7C610b60E`](https://sepolia.etherscan.io/address/0x3cba6a390232d04ccc0ea8dc44208da7c610b60e#code)
+
+💬 This deployment is publicly verified on-chain and open for inspection, allowing direct interaction through **Etherscan** or compatible wallets such as **MetaMask**.
 
 ---
 
@@ -158,7 +171,6 @@ cast call $CONTRACT "withdrawCount()" --rpc-url $RPC_URL
 ```
 
 ---
-
 
 ## 🛡️ Security Notes
 - The contract includes a **nonReentrant guard** to prevent reentrancy attacks.
